@@ -10,6 +10,7 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
 
@@ -51,7 +52,11 @@ public class CategoryController {
         return "search";
     }
 
-    @RequestMapping("/error")
+//    @RequestMapping("/error")
+//    @ResponseBody
+//    public String returnError() {
+//        return "Sorry, dude! Page not found.";
+//    }
 
 }
 
