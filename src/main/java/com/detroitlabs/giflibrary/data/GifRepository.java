@@ -16,7 +16,7 @@ public class GifRepository {
             new Gif("toobad", LocalDate.of(2019, 2, 23), "Erika Languirand", true, 10),
             new Gif("exhausting", LocalDate.of(2019, 2, 23), "Jen Bloomer", false, 10),
             new Gif("headtilt", LocalDate.of(2019, 2, 23), "Dan Newport", true, 12),
-            new Gif("corgibeg", LocalDate.of(2019, 2, 23), "Matt of Lansing", false, 12),
+            new Gif("headtilt2", LocalDate.of(2019, 2, 23), "Matt of Lansing", false, 12),
             new Gif("hugemistake", LocalDate.of(2019, 2, 23), "Erika Languirand", true,10),
             new Gif("whatisaid", LocalDate.of(2019, 2, 23), "Dan Newport", true,10),
             new Gif("wow", LocalDate.of(2019, 2, 23), "David Pietrusa", false, 10),
@@ -65,6 +65,5 @@ public class GifRepository {
             }
         }return searchList;
     }
-
 
 }
